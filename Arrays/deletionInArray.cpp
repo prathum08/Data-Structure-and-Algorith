@@ -26,7 +26,7 @@ int main(){
 
     int sizeAr = sizeof(arr) / sizeof(int);
 
-    cout << "Size before Deletion:- "<< sizeAr << endl;
+    cout << "Size before deletion:- "<< sizeAr << endl;
 
     int sizeDeleted = deleteElement(arr , sizeAr , 98);
 
