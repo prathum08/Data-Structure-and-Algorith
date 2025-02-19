@@ -1,3 +1,8 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+
+
 bool check(vector<int> &nums){
     int n = nums.size();
     int count = 0;  // this is used to store the count
