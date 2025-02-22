@@ -5,7 +5,7 @@ using namespace std;
 vector<vector<int>> levelorder(TreeNode* root){
     vector<vector<int>> res;
     if(root == NULL){
-        reuturn {};
+        return {};
     }
 
     queue<TreeNode*> q;
